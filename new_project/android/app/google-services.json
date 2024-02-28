@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "1058478374529",
-    "project_id": "weight-d3cf1",
-    "storage_bucket": "weight-d3cf1.appspot.com"
+    "project_number": "467755127290",
+    "project_id": "mobdev-finals-77565",
+    "storage_bucket": "mobdev-finals-77565.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1058478374529:android:803cb6c8d27a3baeea1780",
+        "mobilesdk_app_id": "1:467755127290:android:e3daf3aa2bed4e17ab9443",
         "android_client_info": {
-          "package_name": "com.example.bmi"
+          "package_name": "com.finals.bmi"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCXdwSqcelAgSnm_Dgh72vIxYdsyVBmY8I"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1058478374529:android:e8964fc4a12ee5b9ea1780",
-        "android_client_info": {
-          "package_name": "com.example.new_project"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCXdwSqcelAgSnm_Dgh72vIxYdsyVBmY8I"
+          "current_key": "AIzaSyClu2Jq560mOdZpfA4Ql1KvTy1alyydOj0"
         }
       ],
       "services": {
