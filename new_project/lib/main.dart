@@ -6,7 +6,7 @@ import 'package:new_project/details_page.dart';
 import 'package:new_project/settings_page.dart';
 import 'package:new_project/additional_page1.dart';
 import 'package:new_project/additional_page2.dart';
-
+import 'package:new_project/signup_page.dart';
 void main() {
   runApp(const MyApp());
 }
