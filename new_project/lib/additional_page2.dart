@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
 
-class BMIReport {
-  final double bmi;
-  final String date;
-
-  BMIReport(this.bmi, this.date);
-}
-
 class AdditionalPage2 extends StatelessWidget {
-  final BMIReport bmiReport;
-
-  AdditionalPage2({required this.bmiReport});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,36 +8,20 @@ class AdditionalPage2 extends StatelessWidget {
         title: Text('Profile'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'BMI Calculation Report:',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 10.0),
-            Text(
-              'BMI: ${bmiReport.bmi.toStringAsFixed(2)}',
-              style: TextStyle(fontSize: 18.0),
-            ),
-            SizedBox(height: 10.0),
-            Text(
-              'Date: ${bmiReport.date}',
-              style: TextStyle(fontSize: 18.0),
-            ),
-          ],
+        child: Text(
+          'Profile Page',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 1, // Set the current index of the bottom navigation bar
+        currentIndex: 2,
         onTap: (index) {
           // Handle navigation
           switch (index) {
             case 0:
-              // Handle home navigation
               Navigator.pushReplacementNamed(context, '/home');
               break;
             case 1:

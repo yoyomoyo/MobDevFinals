@@ -6,7 +6,7 @@ import 'package:new_project/details_page.dart';
 import 'package:new_project/settings_page.dart';
 import 'package:new_project/additional_page1.dart';
 import 'package:new_project/additional_page2.dart';
-import 'package:new_project/signup_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -30,9 +30,8 @@ class MyApp extends StatelessWidget {
         '/settings': (context) => SettingsPage(),
         '/additional_page1': (context) =>
             BMI_Calculator(), // Route to the BMI Calculator widget
-        '/additional_page2': (context) => AdditionalPage2(
-            bmiReport:
-                BMIReport(0.0, '')), // Route to the Additional Page 2 widget
+        '/additional_page2': (context) =>
+            AdditionalPage2(), // Route to the Additional Page 2 widget
       },
     );
   }
